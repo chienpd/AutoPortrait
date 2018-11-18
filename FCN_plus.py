@@ -292,5 +292,5 @@ def save_alpha_img(org, mat, name):
     misc.imsave(name + '.png', amat)
 
 if __name__ == "__main__":
-    #tf.app.run()
-    pred()
+    tf.app.run()
+    #pred()
